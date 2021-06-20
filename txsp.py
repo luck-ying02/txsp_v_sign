@@ -7,8 +7,7 @@ import re
 
 # 钉钉机器人的 webhook
 webhook = os.environ["webhook"] # 钉钉机器人的 webhook
-#webhook = 'https://oapi.dingtalk.com/robot/send?access_token=4978dbdd11859e0e4a036d517e8219e1ec4d06a3ad9aa968d10abe947d409e61'
-cookie= os.environ["cookie"] #邮箱
+cookie= os.environ["cookie"] #腾讯spcookie
 headers = {
     'Referer': 'https://film.qq.com/x/autovue/grade/?ptag=Vgrade.rule',
     'Content-Type': 'text/plain;charset=UTF-8',
