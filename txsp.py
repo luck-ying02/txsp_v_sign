@@ -117,7 +117,7 @@ def main():
     content_11=sign_11()
     content_userinfo=userinfo()
     global contents
-    dingtalk(contents)
+    #dingtalk(contents)
 
 if __name__ == '__main__':
     main()   
