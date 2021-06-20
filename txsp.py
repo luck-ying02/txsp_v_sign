@@ -1,6 +1,7 @@
 import requests
 import json
 import re
+import os
 
 #成长明细
 #/fcgi-bin/comm_cgi?name=get_score_flow&score_type=1
